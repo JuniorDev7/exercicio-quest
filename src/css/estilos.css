@@ -1,0 +1,90 @@
+html{
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-color:hsl(257, 40%, 49%);
+   
+  font-family: "Open Sans", serif;
+  
+
+}
+
+.header{  
+    padding: 40px 20px;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+ 
+}
+.principal .container-esquerdo{
+    display: flex;
+    width: 100%;
+    padding: 40px;
+}
+
+.principal .container-esquerdo img{
+  display: flex;
+}
+
+.principal .container-direito{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.principal .container-direito .titulo{
+    display: flex;
+    
+    align-items: center;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 40px;
+    width: 600px;
+}
+
+.principal .container-direito p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.principal .container-direito .registro .botao{
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius:20px;
+    padding: 10px 40px;
+    align-self: flex-start;
+    transition: 0,3s;
+}
+
+.principal .container-direito .registro .botao:hover{
+    background-color:hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.footer .rede-social a{
+   margin: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer .rede-social a:hover{
+    color:hsl(300, 69%, 71%);
+}
+
+.footer .rede-social i{
+    font-size: 20px;
+}
+
+
