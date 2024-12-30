@@ -1,10 +1,8 @@
 html{
     background: url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
     background-color:hsl(257, 40%, 49%);
-   
-  font-family: "Open Sans", serif;
-  
-
+    font-family: "Open Sans", serif;
 }
 
 .header{  
@@ -15,8 +13,8 @@ html{
     display: flex;
     justify-content: center;
     max-width: 100%;
- 
 }
+
 .principal .container-esquerdo{
     display: flex;
     width: 100%;
@@ -48,25 +46,25 @@ html{
     font-size: 20px;
 }
 
-.principal .container-direito .registro a{
+.principal .container-direito .registro .botao{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     background-color: #fff;
-    border-radius:20px;
+    border-radius:30px;
     padding: 10px 40px;
     transition: 0,3s;
+    width: 150px;
+    gap: 50px;
 }
 
 .principal .container-direito .registro .botao:hover{
     background-color:hsl(300, 69%, 71%);
-    color: #fff;
+    color: #fff; 
 }
 
 .footer{
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .footer .rede-social a{
