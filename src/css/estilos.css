@@ -20,45 +20,41 @@ html{
 .principal .container-esquerdo{
     display: flex;
     width: 100%;
-    padding: 40px;
 }
 
 .principal .container-esquerdo img{
-  display: flex;
+  width: 100%;
+  padding: 20px;
 }
 
 .principal .container-direito{
     display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    margin: 0 auto;
+    flex-direction: column;
 }
 
 .principal .container-direito .titulo{
-    display: flex;
-    
-    align-items: center;
     color: #fff;
-    margin: 0 auto;
-    font-size: 40px;
-    width: 600px;
+    padding: 80px;
+    font-size: 30px;
 }
 
-.principal .container-direito p{
+.principal .container-direito .texto p{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 600px;
+    margin: 20px;
     color: #fff;
-    text-align: center;
+    font-size: 20px;
 }
 
-.principal .container-direito .registro .botao{
+.principal .container-direito .registro a{
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
     background-color: #fff;
     border-radius:20px;
     padding: 10px 40px;
-    align-self: flex-start;
     transition: 0,3s;
 }
 
