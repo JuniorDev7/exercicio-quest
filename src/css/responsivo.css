@@ -1,6 +1,36 @@
-
-@media(max-width:425px){
+@media(max-width: 425px){
     .principal{
-       height: 75vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal .container-esquerdo img{
+        width: 500px;
+    }
+
+    .principal .container-direito .titulo{
+        display: flex;
+        font-size: 20px;
+        width: 550px;
+    }
+
+    .principal .container-direito .texto {
+        display: flex;
+        text-align: center;
+        width: 450px;
+    }
+
+    .principal .container-direito .registro .botao{
+    
+        
+    }
+
+    .footer{
+        display: flex;
+    }
+
+    .footer .rede-social i{
+        
+        flex-direction: row;
     }
 }
